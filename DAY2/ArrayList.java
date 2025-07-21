@@ -23,6 +23,10 @@ public class JavaCollection {
 
       System.out.println(lst.contains("cute"));
 
+      for (String name : lst) {
+                System.out.println("List elements are : "+name);
+            }
+
 
       // addAll used to add one list in another (merge both list)
 
