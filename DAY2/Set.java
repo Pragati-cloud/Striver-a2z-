@@ -2,7 +2,7 @@ import java.util.*;
 
 public class Setdemo {
   public static void main(String[] args) {
-    
+    //It always have unique element , duplicates not allowed
     //the elements shows are in random order
     Set<Integer> st = new HashSet<>();  // Big O(1)
 
